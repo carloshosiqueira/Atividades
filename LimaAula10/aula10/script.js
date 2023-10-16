@@ -153,7 +153,7 @@
             let novoPreco = preco + (preco * 5 /100)
             console.log(nome2,preco,novoPreco)
 
-            resultado9.innerHTML = `O produto "${nome2}" teve um aumento de 5% e de ${preco} agora custa ${novoPreco}`
+            resultado9.innerHTML = `O produto "${nome2}" teve um aumento de 5% e de ${preco} agora custa ${novoPreco.toFixed(2)}`
         }
 
         //10- Desenvolva um programa que leia o nome de uma cidade, o número total de eleitores e o número total de votos apurados na última eleição.
